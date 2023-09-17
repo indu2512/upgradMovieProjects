@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+#hh{
+    width:100vw;
+    height: 10vh;
+    
+    line-height: 1em;
+    position: relative;
+    background-image: linear-gradient(to right,white,rgb(197, 195, 195));   
+}
+
+
+#tail{
+    font-family: 'Ubuntu Mono', monospace; 
+    padding-top: 0%;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-weight: 200px;
+}
+#head{
+    padding-top: 15px;
+    padding-left: 10px;
+    font-family: 'Montez', cursive; 
+    color:blue;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+#but{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 10px;
+    position: absolute;
+    top:0%;
+    justify-content: right;
+    
+    
+    
+}
+button{
+    padding: 5px;
+    border: 0px solid none;
+}
+
+#nn{
+    display: flex;
+    justify-content: center;
+    
+}
+#bt3,#bt4{
+    margin-top: 300px;
+    background-color: yellow;
+}
+#bt4{
+    position: relative;
+}
+
+#b1{
+    margin-right: 6px;
+    margin-left: 1390px;
+    background-color: blue;
+    color: white;
+    position: relative;
+}
+#b2{
+    margin-right: 10px;
+    margin-left: 0px;
+    background-color: blue;
+    color: white;
+    position: relative;
+}
+.close{
+    color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor:pointer;
+  padding-right: 8px;
+  padding-top: 14px;
+  font-weight: bolder;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    width:30vw;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 14px;
+    padding:4px;
+    background-color: #f2eeee;
+    border-color: none;
+    box-shadow: none;
+}
+.button{
+    width:30vw;
+    background-color: green;
+    margin-top:10px;
+    color: white;
+    margin-bottom: 4px;
+    
+}
+.modal{
+    
+    padding-left: 6px;
+    top: 250px;
+    left:450px;
+    display: none;
+    position:absolute;
+    z-index:1;
+    background-color: white;
+}
+.welcome{
+    padding-left: 6px;
+    top: 250px;
+    left:450px;
+    display: none;
+    position:absolute;
+    z-index:1;
+    background-color: white;
+}
+h4{
+    text-align: center;
+}
+#ss{
+    text-decoration: none;
+}
+.posts{
+    padding-left: 6px;
+    top:12%;
+    bottom: 150px;
+    left:100px;
+    width:80%;
+    height: 82%;
+    position:absolute;
+    z-index:1;
+    display:none;
+    background-color: white
+}
+#contents{
+    height: 150px;
+    box-shadow: none;
+    
+    width:97%;
+    top:0%;
+    padding-bottom: 150px;
+}
+input[type="text"]::placeholder{
+    text-align:left;
+}
+#text{
+    width:97%;  
+}
+#create{
+    background-color: green;
+    margin-top:30px;
+    color: white;
+    width:10%;
+    height:7%;
+    
+    margin-left:45%;
+}
